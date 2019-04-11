@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>voxie_message_seeder</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.9"/>
+  </ItemGroup>
+</Project>
