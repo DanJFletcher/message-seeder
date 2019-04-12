@@ -1,10 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <RootNamespace>voxie_message_seeder</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Dapper" Version="1.60.9"/>
+    <PackageReference Include="MySql.Data" Version="8.0.15"/>
+    <PackageReference Include="Dapper.Contrib" Version="1.60.1"/>
+    <PackageReference Include="Z.Dapper.Plus" Version="1.5.2"/>
   </ItemGroup>
 </Project>
